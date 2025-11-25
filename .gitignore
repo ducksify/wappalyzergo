@@ -1,2 +1,5 @@
+.DS_Store
+.idea
+.vscode
+dist/
 
-cmd/update-fingerprints/update-fingerprints
