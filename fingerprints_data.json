@@ -3914,7 +3914,7 @@
                 "ALTCHA_WIDGET_ATTRS": ""
             },
             "scripts": [
-                ".*altcha\\.(org|js)"
+                "altcha\\.(org|js)"
             ],
             "description": "Altcha is a spam and abuse protection solution for websites and apps, offering a privacy-friendly Captcha and other tools designed with GDPR compliance to provide strong security while safeguarding user privacy.",
             "website": "https://altcha.org",
@@ -7882,6 +7882,19 @@
             "description": "Base is a hosted ecommerce platform that allows business owners to set up an online store and sell their products online.",
             "website": "https://thebase.in",
             "icon": "Base.svg"
+        },
+        "Base44": {
+            "cats": [
+                1
+            ],
+            "meta": {
+                "apple-mobile-web-app-title": [
+                    "base44"
+                ]
+            },
+            "description": "Base44 is an AI-powered, no-code platform that lets users build functional web apps from natural language prompts instead of writing code.",
+            "website": "https://base44.com/",
+            "icon": "Base44.png"
         },
         "BaseKit": {
             "cats": [
@@ -23099,6 +23112,17 @@
             "cpe": "cpe:2.3:a:emberjs:ember.js:*:*:*:*:*:*:*:*",
             "icon": "Ember.js.png"
         },
+        "Emergent": {
+            "cats": [
+                1
+            ],
+            "scriptSrc": [
+                "assets\\.emergent\\.sh"
+            ],
+            "description": "Emergent is an AI-powered, no-code platform that lets users build functional web apps from natural language prompts instead of writing code.",
+            "website": "https://app.emergent.sh/",
+            "icon": "Emergent.png"
+        },
         "Emojicom": {
             "cats": [
                 73
@@ -36939,6 +36963,7 @@
                 90
             ],
             "js": {
+                "jdgm": "",
                 "judgeme": ""
             },
             "scriptSrc": [
@@ -39578,6 +39603,20 @@
             "website": "https://layup.co.za",
             "icon": "LayUp.svg"
         },
+        "Layers": {
+            "cats": [
+                29
+            ],
+            "js": {
+                "Layers": ""
+            },
+            "implies": [
+                "Shopify"
+            ],
+            "description": "Layers is a site search and merchandising platform designed to help ecommerce.",
+            "website": "https://www.uselayers.com/",
+            "icon": "Layers.png"
+        },
         "Laylo": {
             "cats": [
                 53
@@ -41841,6 +41880,24 @@
             "website": "https://lottiefiles.com",
             "icon": "LottieFiles.svg"
         },
+        "Lovable": {
+            "cats": [
+                1
+            ],
+            "dom": {
+                "link[href*='/lovable-uploads/']": {
+                    "exists": ""
+                }
+            },
+            "meta": {
+                "author": [
+                    "lovable"
+                ]
+            },
+            "description": "Lovable is an AI-powered, no-code platform that lets users build functional web apps from natural language prompts instead of writing code.",
+            "website": "https://lovable.dev/",
+            "icon": "Lovable.png"
+        },
         "Loyalis": {
             "cats": [
                 84
@@ -42816,6 +42873,30 @@
             "description": "Mahara is an open source ePortfolio and social networking web application.",
             "website": "https://mahara.org",
             "icon": "Mahara.svg"
+        },
+        "Maho": {
+            "cats": [
+                6,
+                1
+            ],
+            "cookies": {
+                "maho_session": ""
+            },
+            "scriptSrc": [
+                "js/maho-autocomplete\\.js",
+                "js/maho-captcha\\.js",
+                "js/maho-dialog\\.js",
+                "js/maho-load-on-intent\\.js",
+                "js/maho-passkey-tools\\.js",
+                "js/maho-tree\\.js"
+            ],
+            "implies": [
+                "MySQL",
+                "PHP"
+            ],
+            "description": "Maho is a modern, open-source ecommerce platform forked from OpenMage, offering enhanced developer experience while maintaining Magento 1 compatibility.",
+            "website": "https://mahocommerce.com",
+            "icon": "Maho.svg"
         },
         "MailChimp": {
             "cats": [
@@ -44605,10 +44686,12 @@
                 6
             ],
             "cookies": {
+                "_mshops_ga": "",
+                "_mshops_ga_cid": "",
                 "_mshops_ga_gid": ""
             },
             "scriptSrc": [
-                "frontend-assets/mshops-web-home/vendor"
+                "frontend-assets/mshops-web-home/"
             ],
             "description": "Mercado Shops is an all-in-one ecommerce platform.",
             "website": "https://www.mercadoshops.com",
@@ -62144,6 +62227,17 @@
             "website": "https://rumble.com",
             "icon": "Rumble.svg"
         },
+        "Rumvision": {
+            "cats": [
+                78
+            ],
+            "js": {
+                "rumv_config": ""
+            },
+            "description": "Rumvision is a front-end performance monitoring service",
+            "website": "https://www.rumvision.com/",
+            "icon": "Rumvision.png"
+        },
         "RunKit": {
             "cats": [
                 47,
@@ -65428,6 +65522,7 @@
                 }
             },
             "js": {
+                "ShopPay": "",
                 "ShopifyPay.apiHost": ""
             },
             "scriptSrc": [
@@ -65756,15 +65851,12 @@
                 "ShopifyCustomer": ""
             },
             "headers": {
+                "powered-by": "shopify",
                 "x-shopid": "\\;confidence:50",
                 "x-shopify-stage": ""
             },
             "scripts": [
                 "shopifytag"
-            ],
-            "scriptSrc": [
-                "cdn\\.shopify\\.com",
-                "sdks\\.shopifycdn\\.com"
             ],
             "meta": {
                 "shopify-checkout-api-token": [],
@@ -65782,7 +65874,8 @@
                 "ShopifyBuy": ""
             },
             "scriptSrc": [
-                "sdk\\. shopifycdn\\.com/buy-button/latest/"
+                "sdks\\.shopifycdn\\.com/buy-button/",
+                "sdks\\.shopifycdn\\.com/js-buy-sdk/"
             ],
             "description": "Shopify Buy Button is an app from Shopify which allows merchant to embed buy functionality for any product or collection into another website or blog.",
             "website": "https://apps.shopify.com/buy-button",
@@ -65851,6 +65944,17 @@
             ],
             "description": "Shopify Product reviews allows you to add a customer review feature to your products.",
             "website": "https://apps.shopify.com/product-reviews",
+            "icon": "Shopify.svg"
+        },
+        "Shopify Web Components": {
+            "cats": [
+                18
+            ],
+            "scriptSrc": [
+                "cdn\\.shopify\\.com/storefront/web-components\\.js"
+            ],
+            "description": "Storefront Web Components let you bring Shopify-powered commerce capabilities to any website.",
+            "website": "https://shopify.dev/docs/api/storefront-web-components",
             "icon": "Shopify.svg"
         },
         "Shopistry": {
@@ -76560,12 +76664,22 @@
                     "exists": ""
                 }
             },
+            "js": {
+                "troveDataLayer": "",
+                "troveGlobal": ""
+            },
             "headers": {
                 "x-trove-app-name": "",
                 "x-trove-country-code": "",
                 "x-trove-order-uuid": "",
                 "x-yerdle-app-name": ""
             },
+            "scriptSrc": [
+                "recurate-core\\.js",
+                "recurate-page\\.js",
+                "recurate-pdp\\.js",
+                "recurate-slider\\.js"
+            ],
             "description": "Trove (formerly Yerdle) builds white-label technology and end-to-end operations for ecommerce platforms.",
             "website": "https://trove.co",
             "icon": "trove.png"
@@ -76904,6 +77018,17 @@
             ],
             "description": "Turbolinks is a Rails feature, available as a gem and enabled by default in new Rails apps. It is intended to speed up navigating between pages of your application.",
             "website": "https://github.com/turbolinks/turbolinks"
+        },
+        "Turbopack": {
+            "cats": [
+                47
+            ],
+            "js": {
+                "TURBOPACK": ""
+            },
+            "description": "Turbopack is an open-source JavaScript module bundler.",
+            "website": "https://nextjs.org/docs/app/api-reference/turbopack",
+            "icon": "Turbopack.svg"
         },
         "TurfJS": {
             "cats": [
@@ -82494,6 +82619,17 @@
             "website": "https://en.wikipedia.org/wiki/WebSocket",
             "icon": "WebSocket.svg"
         },
+        "WebSphere": {
+            "cats": [
+                22
+            ],
+            "cookies": {
+                "(?i)ltpatoken": ""
+            },
+            "website": "https://www.ibm.com/products/websphere-application-server",
+            "cpe": "cpe:2.3:a:ibm:websphere_application_server:-:*:*:*:*:*:*:*",
+            "icon": "websphere.svg"
+        },
         "WebToffee Stripe Payment Plugin for WooCommerce": {
             "cats": [
                 87
@@ -86242,6 +86378,40 @@
             "description": "Zen Planner is a software platform designed for fitness and wellness businesses, offering features such as membership management, class scheduling, and billing automation.",
             "website": "https://zenplanner.com",
             "icon": "Zen Planner.svg"
+        },
+        "ZenBasket": {
+            "cats": [
+                6
+            ],
+            "dom": {
+                "img[src*='getzenbasket.com']": {
+                    "attributes": {
+                        "src": "(?:cdn\\.|assets\\.|[a-z]{2}\\.images\\.)getzenbasket\\.com;confidence:50"
+                    }
+                },
+                "link[href*='getzenbasket.com']": {
+                    "attributes": {
+                        "href": "(?:cdn\\.|assets\\.|[a-z]{2}\\.images\\.)getzenbasket\\.com;confidence:50"
+                    }
+                }
+            },
+            "cookies": {
+                "zenbasket_session": ""
+            },
+            "js": {
+                "ZenBasket": ";confidence:25",
+                "ZenBasketApp": "",
+                "ZenBasketStore": ""
+            },
+            "meta": {
+                "generator": [
+                    "zenbasket;confidence:50"
+                ],
+                "zenbasket-platform": []
+            },
+            "description": "ZenBasket is a modern e-commerce website builder that allows users to create, customize, and manage online stores with drag-and-drop features and integrated payment solutions.",
+            "website": "https://www.getzenbasket.com",
+            "icon": "zenbasket.svg"
         },
         "Zenbooker": {
             "cats": [
